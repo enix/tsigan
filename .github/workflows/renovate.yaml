@@ -33,6 +33,6 @@ jobs:
           # docker-cmd-file: .github/renovate-entrypoint.sh
           docker-user: root
           configurationFile: .github/renovate-config.json5
-        env:
-          LOG_LEVEL: 'debug'
+        # env:
+        #   LOG_LEVEL: 'debug'
 
